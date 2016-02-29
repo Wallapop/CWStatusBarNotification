@@ -11,13 +11,13 @@
  */
 typedef void(^CWCompletionBlock)(void);
 
-# pragma mark - ScrollLabel
+# pragma mark - CWScrollLabel
 
 /**
  * A subclass of @c UILabel that scrolls the text if it is too long for the 
  * label.
  */
-@interface ScrollLabel : UILabel
+@interface CWScrollLabel : UILabel
 /**
  * Used to find the amount of time that the label will spend scrolling.
  * @return The amount of time that will be spent scrolling.
@@ -101,7 +101,7 @@ typedef NS_ENUM(NSInteger, CWNotificationAnimationType) {
 # pragma mark - properties
 
 /// The label that holds the notification text.
-@property (strong, nonatomic) ScrollLabel *notificationLabel;
+@property (strong, nonatomic) CWScrollLabel *notificationLabel;
 /// The @c UIView that holds a screenshot of the status bar view.
 @property (strong, nonatomic) UIView *statusBarView;
 /// The block that gets triggered when the notification is tapped.

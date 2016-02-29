@@ -16,9 +16,9 @@
 #define SCROLL_SPEED 40.0f
 #define SCROLL_DELAY 1.0f
 
-# pragma mark - ScrollLabel
+# pragma mark - CWScrollLabel
 
-@implementation ScrollLabel
+@implementation CWScrollLabel
 {
     UIImageView *textImage;
 }
@@ -346,7 +346,7 @@ static void cancel_delayed_block(CWDelayedBlockHandle delayedHandle)
 
 - (void)createNotificationLabelWithMessage:(NSString *)message
 {
-    self.notificationLabel = [ScrollLabel new];
+    self.notificationLabel = [CWScrollLabel new];
     self.notificationLabel.numberOfLines = self.multiline ? 0 : 1;
     self.notificationLabel.text = message;
     self.notificationLabel.textAlignment = NSTextAlignmentCenter;
