@@ -7,23 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		370883CE19F08756000E79D6 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370883CD19F08756000E79D6 /* CustomView.xib */; };
-		5E0D045E1838AE0D00CBFC35 /* CWStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D045D1838AE0D00CBFC35 /* CWStatusBarNotification.m */; };
 		5E2FFB5718367C01003333F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2FFB5618367C01003333F8 /* Foundation.framework */; };
 		5E2FFB5918367C01003333F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2FFB5818367C01003333F8 /* CoreGraphics.framework */; };
 		5E2FFB5B18367C01003333F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2FFB5A18367C01003333F8 /* UIKit.framework */; };
-		5E2FFB6118367C01003333F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E2FFB5F18367C01003333F8 /* InfoPlist.strings */; };
-		5E2FFB6318367C01003333F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2FFB6218367C01003333F8 /* main.m */; };
-		5E2FFB6718367C01003333F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2FFB6618367C01003333F8 /* AppDelegate.m */; };
-		5E2FFB6918367C01003333F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2FFB6818367C01003333F8 /* Images.xcassets */; };
 		5E2FFB7018367C01003333F8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2FFB6F18367C01003333F8 /* XCTest.framework */; };
 		5E2FFB7118367C01003333F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2FFB5618367C01003333F8 /* Foundation.framework */; };
 		5E2FFB7218367C01003333F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2FFB5A18367C01003333F8 /* UIKit.framework */; };
-		5E2FFB8E18367CA3003333F8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2FFB8C18367CA3003333F8 /* MainViewController.m */; };
-		5E2FFB8F18367CA3003333F8 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E2FFB8D18367CA3003333F8 /* MainViewController.xib */; };
-		5E7E40DA19C0F9CF00A0E3E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E7E40D919C0F9CF00A0E3E0 /* LaunchScreen.xib */; };
-		B045FEBE241AD91C00D4B93F /* CWStatusBarNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = B045FEB0241AD91C00D4B93F /* CWStatusBarNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B045FEC5241AD92D00D4B93F /* CWStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D045D1838AE0D00CBFC35 /* CWStatusBarNotification.m */; };
+		B02E4E77241BAEE300364BE8 /* CWStatusBarNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = B02E4E75241BAEE300364BE8 /* CWStatusBarNotification.h */; };
+		B02E4E78241BAEE300364BE8 /* CWStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E4E76241BAEE300364BE8 /* CWStatusBarNotification.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,32 +28,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		370883CD19F08756000E79D6 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
-		5E0D045D1838AE0D00CBFC35 /* CWStatusBarNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CWStatusBarNotification.m; path = CWStatusBarNotification/CWStatusBarNotification.m; sourceTree = SOURCE_ROOT; };
 		5E2FFB5318367C01003333F8 /* CWNotificationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CWNotificationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2FFB5618367C01003333F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5E2FFB5818367C01003333F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5E2FFB5A18367C01003333F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		5E2FFB5E18367C01003333F8 /* CWNotificationDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CWNotificationDemo-Info.plist"; sourceTree = "<group>"; };
-		5E2FFB6018367C01003333F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5E2FFB6218367C01003333F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5E2FFB6418367C01003333F8 /* CWNotificationDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CWNotificationDemo-Prefix.pch"; sourceTree = "<group>"; };
-		5E2FFB6518367C01003333F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5E2FFB6618367C01003333F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5E2FFB6818367C01003333F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5E2FFB6E18367C01003333F8 /* CWNotificationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CWNotificationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2FFB6F18367C01003333F8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5E2FFB8B18367CA3003333F8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		5E2FFB8C18367CA3003333F8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		5E2FFB8D18367CA3003333F8 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		5E7E40D919C0F9CF00A0E3E0 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		B02E4E75241BAEE300364BE8 /* CWStatusBarNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWStatusBarNotification.h; sourceTree = "<group>"; };
+		B02E4E76241BAEE300364BE8 /* CWStatusBarNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWStatusBarNotification.m; sourceTree = "<group>"; };
 		B045FEA6241AD81D00D4B93F /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		B045FEA8241AD89400D4B93F /* CWStatusBarNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CWStatusBarNotification.h; path = CWStatusBarNotification/include/CWStatusBarNotification.h; sourceTree = SOURCE_ROOT; };
 		B045FEAE241AD91C00D4B93F /* CWStatusBarNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CWStatusBarNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B045FEB0241AD91C00D4B93F /* CWStatusBarNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWStatusBarNotification.h; sourceTree = "<group>"; };
-		B045FEB1241AD91C00D4B93F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B045FEBB241AD91C00D4B93F /* CWStatusBarNotificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWStatusBarNotificationTests.swift; sourceTree = "<group>"; };
-		B045FEBD241AD91C00D4B93F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				B045FEA6241AD81D00D4B93F /* Package.swift */,
-				5E2FFB8518367C1B003333F8 /* CWStatusBarNotification */,
-				5E2FFB5C18367C01003333F8 /* CWNotificationDemo */,
-				B045FEAF241AD91C00D4B93F /* CWStatusBarNotification */,
-				B045FEBA241AD91C00D4B93F /* CWStatusBarNotificationTests */,
+				B02E4E73241BAEE300364BE8 /* CWStatusBarNotification */,
 				5E2FFB5518367C01003333F8 /* Frameworks */,
 				5E2FFB5418367C01003333F8 /* Products */,
 			);
@@ -130,75 +102,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5E2FFB5C18367C01003333F8 /* CWNotificationDemo */ = {
+		B02E4E73241BAEE300364BE8 /* CWStatusBarNotification */ = {
 			isa = PBXGroup;
 			children = (
-				5E2FFB6518367C01003333F8 /* AppDelegate.h */,
-				5E2FFB6618367C01003333F8 /* AppDelegate.m */,
-				370883CD19F08756000E79D6 /* CustomView.xib */,
-				5E2FFB8918367C75003333F8 /* View Controllers */,
-				5E2FFB6818367C01003333F8 /* Images.xcassets */,
-				5E2FFB5D18367C01003333F8 /* Supporting Files */,
-			);
-			path = CWNotificationDemo;
-			sourceTree = "<group>";
-		};
-		5E2FFB5D18367C01003333F8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5E7E40D919C0F9CF00A0E3E0 /* LaunchScreen.xib */,
-				5E2FFB5E18367C01003333F8 /* CWNotificationDemo-Info.plist */,
-				5E2FFB5F18367C01003333F8 /* InfoPlist.strings */,
-				5E2FFB6218367C01003333F8 /* main.m */,
-				5E2FFB6418367C01003333F8 /* CWNotificationDemo-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5E2FFB8518367C1B003333F8 /* CWStatusBarNotification */ = {
-			isa = PBXGroup;
-			children = (
-				B045FEA8241AD89400D4B93F /* CWStatusBarNotification.h */,
-				5E0D045D1838AE0D00CBFC35 /* CWStatusBarNotification.m */,
-			);
-			name = CWStatusBarNotification;
-			path = CWNotification;
-			sourceTree = "<group>";
-		};
-		5E2FFB8918367C75003333F8 /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				5E2FFB8A18367C85003333F8 /* MainViewController */,
-			);
-			name = "View Controllers";
-			sourceTree = "<group>";
-		};
-		5E2FFB8A18367C85003333F8 /* MainViewController */ = {
-			isa = PBXGroup;
-			children = (
-				5E2FFB8B18367CA3003333F8 /* MainViewController.h */,
-				5E2FFB8C18367CA3003333F8 /* MainViewController.m */,
-				5E2FFB8D18367CA3003333F8 /* MainViewController.xib */,
-			);
-			name = MainViewController;
-			sourceTree = "<group>";
-		};
-		B045FEAF241AD91C00D4B93F /* CWStatusBarNotification */ = {
-			isa = PBXGroup;
-			children = (
-				B045FEB0241AD91C00D4B93F /* CWStatusBarNotification.h */,
-				B045FEB1241AD91C00D4B93F /* Info.plist */,
+				B02E4E74241BAEE300364BE8 /* include */,
+				B02E4E76241BAEE300364BE8 /* CWStatusBarNotification.m */,
 			);
 			path = CWStatusBarNotification;
 			sourceTree = "<group>";
 		};
-		B045FEBA241AD91C00D4B93F /* CWStatusBarNotificationTests */ = {
+		B02E4E74241BAEE300364BE8 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				B045FEBB241AD91C00D4B93F /* CWStatusBarNotificationTests.swift */,
-				B045FEBD241AD91C00D4B93F /* Info.plist */,
+				B02E4E75241BAEE300364BE8 /* CWStatusBarNotification.h */,
 			);
-			path = CWStatusBarNotificationTests;
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +126,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B045FEBE241AD91C00D4B93F /* CWStatusBarNotification.h in Headers */,
+				B02E4E77241BAEE300364BE8 /* CWStatusBarNotification.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,11 +234,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E7E40DA19C0F9CF00A0E3E0 /* LaunchScreen.xib in Resources */,
-				370883CE19F08756000E79D6 /* CustomView.xib in Resources */,
-				5E2FFB6118367C01003333F8 /* InfoPlist.strings in Resources */,
-				5E2FFB8F18367CA3003333F8 /* MainViewController.xib in Resources */,
-				5E2FFB6918367C01003333F8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,10 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E0D045E1838AE0D00CBFC35 /* CWStatusBarNotification.m in Sources */,
-				5E2FFB6718367C01003333F8 /* AppDelegate.m in Sources */,
-				5E2FFB6318367C01003333F8 /* main.m in Sources */,
-				5E2FFB8E18367CA3003333F8 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B045FEC5241AD92D00D4B93F /* CWStatusBarNotification.m in Sources */,
+				B02E4E78241BAEE300364BE8 /* CWStatusBarNotification.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,17 +285,6 @@
 			targetProxy = 5E2FFB7318367C01003333F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5E2FFB5F18367C01003333F8 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E2FFB6018367C01003333F8 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5E2FFB7D18367C01003333F8 /* Debug */ = {
